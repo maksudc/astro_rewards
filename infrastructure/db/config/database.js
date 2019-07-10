@@ -1,5 +1,3 @@
 var config = require("config");
 
-module.exports = {
-  return config.get("Core.dbConfig");
-};
+module.exports = config.get("Core.dbConfig");
