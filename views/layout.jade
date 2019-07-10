@@ -1,7 +1,14 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title Astro Rewards
+    link(rel='stylesheet',href='/static/plugins/bootstrap/css/bootstrap.css')
+    link(rel='stylesheet',href='/static/stylesheets/style.css')
+    block extra_headers
   body
     block content
+
+    script(type="text/javascript", src="https://unpkg.com/react@16/umd/react.production.min.js", crossorigin)
+    script(type="text/javascript", src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js", crossorigin)
+    script(type="text/javascript", src="/static/plugins/bootstrap/js/bootstrap.js")
+    block extra_js
