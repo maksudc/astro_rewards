@@ -6,3 +6,7 @@ body {
 a {
   color: #00B7FF;
 }
+
+a#terms.footer-links,  a#privacy.footer-links{
+  color: rgb(230, 0, 125);
+}

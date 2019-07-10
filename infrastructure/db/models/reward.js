@@ -1,7 +1,7 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Reward = sequelize.define('Reward', {
-    partnerId:{
+    PartnerId:{
       type: DataTypes.INTEGER,
       references:{
         model: "Partners",

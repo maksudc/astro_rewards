@@ -5,10 +5,25 @@ html
     link(rel='stylesheet',href='/static/plugins/bootstrap/css/bootstrap.css')
     link(rel='stylesheet',href='/static/stylesheets/style.css')
     block extra_headers
-  body
-    block content
 
-    script(type="text/javascript", src="https://unpkg.com/react@16/umd/react.production.min.js", crossorigin)
-    script(type="text/javascript", src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js", crossorigin)
+  body.container
+
+    nav.navbar.navbar-light.bg-transparent
+      a.navbar-brand(href="/")
+        img(src="/static/images/logo.png",height="24",alt="")
+
+    div#root
+      block content
+
+    div#footer
+      p Copyright © 2019. Measat Broadcast Network System Sdn. Bhd. (240064-A). All Rights Reserved.
+      a#terms.footer-links(href="https://www.astro.com.my/terms", target="_blank") Terms
+      span |
+      a#privacy.footer-links(href="https://www.astro.com.my/privacy", target="_blank") Policy
+
+    script(src="/static/javascripts/jquery-3.2.1.slim.min.js")
     script(type="text/javascript", src="/static/plugins/bootstrap/js/bootstrap.js")
+    script(type="text/javascript", src="/static/plugins/react/react.production.min.js")
+    script(type="text/javascript", src="/static/plugins/react/react-dom.production.min.js")
+
     block extra_js
