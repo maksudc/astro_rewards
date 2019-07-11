@@ -74,13 +74,25 @@ const DATA = [
     "banner": "http://localhost:3000/static/images/banners/sample_banner.jpeg"
   }
 ];
+//  // {DATA.map(rewardObject => <RewardCard key={rewardObject.id} ...rewardObject />)}
 
 class RewardList extends React.Component{
 
   render(){
     return (
-      <div>
-        {DATA.map(rewardObject => <RewardCard key={rewardObject.id} ...rewardObject />)}
+      <div className="container">
+        <div className="row">
+          {
+            DATA.map((rewardObject) =>
+                    <div key={rewardObject.id} className="col-sm-4" style={{ "padding-top": 15}}>
+                      <RewardCard
+                        key={rewardObject.id}
+                        {...rewardObject}
+                      />
+                    </div>
+              )
+            }
+        </div>
       </div>
     );
   }
