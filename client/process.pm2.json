@@ -9,7 +9,7 @@
       },
       "env_production":{
         "NODE_ENV":"production",
-        "PORT":8000
+        "PORT":8001
       },
       "cwd":"/home/astro_rewards/client",
       "error_file": "/var/log/pm2/astro_client_process.err.log",
