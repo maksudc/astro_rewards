@@ -48,11 +48,16 @@ module.exports = (sequelize, DataTypes) => {
     },
     flash: {
       type: DataTypes.BOOLEAN,
-      default: false
+      defaultValue: false
     }
   }, {});
   Reward.associate = function(models) {
     Reward.belongsTo(models.Partner);
+    Reward.belongsToMany(models.Subscriber, {
+      through: "Redeems",
+      as: "redeemers",
+      foreignKey: "RewardId"
+    });
   };
   return Reward;
 };

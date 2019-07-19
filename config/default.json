@@ -18,6 +18,15 @@
         "collate": "utf8_general_ci",
         "timestamps": true
       }
+    },
+    "redeem":{
+      "duration": 60,
+      "unit": "minutes",
+      "codeLength": 6
+    },
+    "timezone":{
+      "common": "UTC",
+      "client": "Asia/Dhaka"
     }
   }
 }

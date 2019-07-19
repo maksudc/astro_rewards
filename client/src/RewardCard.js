@@ -1,4 +1,6 @@
 import React from "react";
+
+import { Redirect } from 'react-router';
 import {Card, Button} from "react-bootstrap";
 import "./assets/css/RewardCard.css";
 
@@ -6,9 +8,24 @@ import RedeemFormat from "./RedeemFormat";
 
 class RewardCard extends React.Component{
 
+  constructor(props){
+    super(props);
+    
+    this.state = {
+      redirect: false
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
   render(){
+
+    if(this.state.redirect){
+      return <Redirect push to={ "/details/" + this.props.id }/>
+    }
+
     return (
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '18rem' }} onClick={this.handleClick}>
         <Card.Img variant="top" src={this.props.banner} />
         <Card.Body>
           <div className="media">
@@ -26,6 +43,12 @@ class RewardCard extends React.Component{
         </Card.Body>
       </Card>
     );
+  }
+
+  handleClick(){
+    this.setState({
+      redirect: true
+    });
   }
 };
 

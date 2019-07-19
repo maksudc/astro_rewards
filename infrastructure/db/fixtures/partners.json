@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "GO SHOP",
+    "slug": "go_shop",
+    "phone": "1300 88 1588",
+    "email": "wecare@goshop.com.my",
+    "logo": "http://image.goshop.com.my/resources/ms/image/common/h1_logo.png"
+  },
+  {
+    "id": 2,
+    "name": "LA JUICERIA",
+    "slug": "la_juiceria",
+    "phone": "1300 88 1588",
+    "email": "info@lajuiceria.com",
+    "logo": "http://lajuiceria.com.my/wp/wp-content/uploads/2014/04/logo_trial.png"
+  },
+  {
+    "id": 3,
+    "name": "ZALORA",
+    "slug": "zalora",
+    "phone": "1300 88 1588",
+    "email": "test@zalora.com",
+    "logo": "/assets/images/partners/zalora.png"
+  },
+  {
+    "id": 4,
+    "name": "TICKET2U",
+    "slug": "ticket2u",
+    "phone": "1300 88 1588",
+    "email": "help@ticket2u.com.sg",
+    "logo": "https://www.ticket2u.com.my/ticket2u/public/img/brand/logo-white.svg"
+  },
+  {
+    "id": 5,
+    "name": "GALAXY GROUP",
+    "slug": "galaxy_group",
+    "phone": "1300 88 1588",
+    "email": "help@galaxygroup.com",
+    "logo": "https://d23yle2kieo2t7.cloudfront.net/prodsite/media/reward-assets/2019/may/astrorewards_tvb_partner-logo_update.png"
+  },
+  {
+    "id": 6,
+    "name": "DIDI & FRIENDS",
+    "slug": "didi_&_friends",
+    "phone": "1300 88 1588",
+    "email": "help@did&friends.com",
+    "logo": "https://d23yle2kieo2t7.cloudfront.net/prodsite/media/reward-assets/2019/june/khh-live_astro-extended-144x144.png"
+  },
+  {
+    "id": 7,
+    "name": "ASTRO MASTER",
+    "slug": "astro_master",
+    "phone": "1300 88 1588",
+    "email": "help@astro_master.com",
+    "logo": "https://d23yle2kieo2t7.cloudfront.net/prodsite/media/reward-assets/2019/may/astrorewards_astro-master_partner-logo_w144px-x-h144px-03.png"
+  },
+  {
+    "id": 8,
+    "name": "GINTELL (M) SDN BHD",
+    "slug": "gintell_(m)_sdn_bhd",
+    "phone": "1300 88 1588",
+    "email": "help@gintellmsdnbhd.com",
+    "logo": "https://d23yle2kieo2t7.cloudfront.net/prodsite/media/reward-assets/2019/may/190509_gintell_144x44_astrorewards_logo_2.png"
+  }
+]

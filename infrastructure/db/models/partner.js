@@ -15,6 +15,14 @@ module.exports = (sequelize, DataTypes) => {
     logo: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    slug:{
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    phone:{
+      type: DataTypes.STRING,
+      allowNull: false
     }
   }, {});
   Partner.associate = function(models) {
