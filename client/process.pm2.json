@@ -2,7 +2,7 @@
   "apps":[
     {
       "name":"astro_client_process",
-      "script": "./bin/www",
+      "script": "./node_modules/react-scripts/scripts/start.js",
       "env":{
         "NODE_ENV":"development",
         "PORT":3001
