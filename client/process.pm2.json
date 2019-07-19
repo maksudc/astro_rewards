@@ -1,0 +1,26 @@
+{
+  "apps":[
+    {
+      "name":"astro_client_process",
+      "script": "./bin/www",
+      "env":{
+        "NODE_ENV":"development",
+        "PORT":3001
+      },
+      "env_production":{
+        "NODE_ENV":"production",
+        "PORT":8000
+      },
+      "cwd":"/home/astro_rewards/client",
+      "error_file": "/var/log/pm2/astro_client_process.err.log",
+      "out_file":"/var/log/pm2/astro_client_process.out.log",
+      "combine_logs": true,
+      "merge_logs":true,
+      "log_file": "/var/log/pm2/astro_client_process.combined.log",
+      "log_date_format" : "YYYY-MM-DD HH:mm Z",
+      "max_memory_restart": "900M",
+      "exec_mode":"cluster",
+      "instances": 2
+    }
+  ]
+}
