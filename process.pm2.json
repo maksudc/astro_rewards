@@ -6,7 +6,7 @@
       "env":{
         "NODE_ENV":"development",
         "PORT":3000,
-        "Core.dbConfig.host": "172.104.167.246"
+        "Core.dbConfig.host": "139.162.38.146"
       },
       "env_production":{
         "NODE_ENV":"production",
