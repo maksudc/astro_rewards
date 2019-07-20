@@ -22,6 +22,10 @@ Browse at [Site link](http://172.104.167.246:3001/) to see the demo.
 - RUN `npm start` while at `PROJECT_ROOT/client`
 - Browse to `http://localhost:3001`
 
+# Api Collection
+
+[Postman Collection](https://www.getpostman.com/collections/a800022f0501c8e62301)
+
 # License
 
 May be freely distributed under the [MIT license](https://raw.githubusercontent.com/maksudc/astro_rewards/master/LICENSE)
