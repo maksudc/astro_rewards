@@ -15,6 +15,8 @@ Browse at [Site link](http://172.104.167.246:3001/) to see the demo.
 - Update the `PROJECT_ROOT/config/default.json` or `PROJECT_ROOT/config/production.json`
   based on your choice for database configurations.
 - `cd` to `PROJECT_ROOT` and run `npm install --save`
+- RUN the migrations. `node_modules/sequelize-cli/lib/sequelize db:migrate`
+- RUN the seeds `node_modules/sequelize-cli/lib/sequelize db:seed:all`
 - RUN `npm start` while at `PROJECT_ROOT`
 - `cd `to` PROJECT_ROOT/client` and run `npm install --save`
 - RUN `npm start` while at `PROJECT_ROOT/client`
