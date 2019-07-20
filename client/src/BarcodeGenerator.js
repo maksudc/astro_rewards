@@ -52,33 +52,26 @@ class BarcodeGenerator extends React.Component{
                <Row>
                   <div className="col-md-12"></div>
                   <div className="col-md-12">
-                     <div className="col-md-6">
-                        <CopyToClipboard text={this.props.code}
-                           onCopy={this.onCopy}>
-                           <Button className="pull-left btn btn-light" variant="secondary"
-                              onClick={this.onCopy}>
-                           COPY CODE
-                           </Button>
-                        </CopyToClipboard>
-                     </div>
-                     <div className="col-md-6">
+
+                       <CopyToClipboard text={this.props.code}
+                          onCopy={this.onCopy}>
+
+                          <Button className="pull-left btn btn-light" variant="secondary"
+                             onClick={this.onCopy}>
+                          COPY CODE
+                          </Button>
+
+                       </CopyToClipboard>
+
                         <a onClick={this.props.onPurchase}
                         className="btn btn-danger pull-right"
                         style={{backgroundColor: '#e6007d', borderColor: '#e6007d'}}>
-                        SHOP NOW
+                          SHOP NOW
                         </a>
-                     </div>
-                  </div>
+                    </div>
                </Row>
             </Modal.Body>
          </Modal>
-         <div className="col-md-6">
-            <Button onClick={this.props.onPurchase}
-            className="btn btn-danger pull-right"
-            style={{backgroundColor: '#e6007d', borderColor: '#e6007d'}}>
-            SHOP NOW
-            </Button>
-         </div>
       </div>
     );
   }

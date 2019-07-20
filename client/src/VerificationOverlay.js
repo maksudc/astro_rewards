@@ -106,9 +106,7 @@ class VerificationOverlay extends React.Component {
     onVerificationError(){
 
       this.setState({
-        isVerificationError: true,
-        verificationNumber: null,
-        accountIdentifierNumber: null
+        isVerificationError: true
       });
     }
 
