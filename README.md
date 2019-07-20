@@ -33,7 +33,10 @@ Browse at [Site link](http://172.104.167.246:3001/) to see the demo.
 # Incomplete features
 
 - Remember me while verification and session association
-- If verification fails exactly what mismatched is not shown currently
+- If verification fails exactly what mismatched( whether accountNumber is invalid or the verification number ) is not shown currently
+- Subscriber creation form
+- Reward Creation form
+- Multitenant support
 
 # License
 
