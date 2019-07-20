@@ -3,6 +3,7 @@ import { Row } from "react-bootstrap";
 import "./assets/css/RewardDetails.css";
 import VerificationOverlay from "./VerificationOverlay";
 import CouponDisplay from "./CouponDisplay";
+import BarcodeGenerator from "./BarcodeGenerator";
 import DatetimeUtils from "./utils/datetime";
 import moment from "moment-timezone";
 import { COMMON_ZONE, CLIENT_ZONE } from "./configs/timezone";
@@ -89,7 +90,19 @@ class CountDownRedeemOverlay extends React.Component{
        </Row>
        {
          this.state.isCouponPromptActive &&
+         this.props.format == "online" &&
          <CouponDisplay
+           active={true}
+           code={this.props.code}
+           website={this.props.website}
+           onHide={this.hideCode}
+           onPurchase={this.props.onPurchase}
+           />
+       }
+       {
+         this.state.isCouponPromptActive &&
+         this.props.format == "store" &&
+         <BarcodeGenerator
            active={true}
            code={this.props.code}
            website={this.props.website}

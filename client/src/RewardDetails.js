@@ -214,6 +214,7 @@ class RewardDetails extends React.Component {
             endDate={this.state.redeemInstance.codeExpiredAt}
             onTimeout={this.onRedeemTimeout}
             website={this.state.details.website}
+            format={this.state.details.format}
             code={this.state.redeemInstance.code}
             onPurchase={this.onPurchase}
             />;

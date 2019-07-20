@@ -30,6 +30,11 @@ Browse at [Site link](http://172.104.167.246:3001/) to see the demo.
 
 - [Demo users](https://github.com/maksudc/astro_rewards/blob/master/infrastructure/db/fixtures/subscribers.js)
 
+# Incomplete features
+
+- Remember me while verification and session association
+- If verification fails exactly what mismatched is not shown currently
+
 # License
 
 May be freely distributed under the [MIT license](https://raw.githubusercontent.com/maksudc/astro_rewards/master/LICENSE)
