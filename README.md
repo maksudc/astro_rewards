@@ -26,6 +26,10 @@ Browse at [Site link](http://172.104.167.246:3001/) to see the demo.
 
 [Postman Collection](https://www.getpostman.com/collections/a800022f0501c8e62301)
 
+# Demo User credentials
+
+- [Demo users](https://github.com/maksudc/astro_rewards/blob/master/infrastructure/db/fixtures/subscribers.js)
+
 # License
 
 May be freely distributed under the [MIT license](https://raw.githubusercontent.com/maksudc/astro_rewards/master/LICENSE)
