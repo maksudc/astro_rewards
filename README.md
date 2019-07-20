@@ -22,6 +22,6 @@ Browse at [Site link](http://172.104.167.246:3001/) to see the demo.
 
 # License
 
-May be freely distributed under the [MIT license]()
+May be freely distributed under the [MIT license](https://raw.githubusercontent.com/maksudc/astro_rewards/master/LICENSE)
 
 Copyright (c) 2019 Md. Maksud Alam Chowdhury & Astro Malaysia
