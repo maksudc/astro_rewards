@@ -1,9 +1,9 @@
 {
   "Core":{
     "dbConfig": {
-      "username": "astro",
-      "password": "Tv8MBXfk2AS8",
-      "database": "astro_rewards",
+      "username": "",
+      "password": "",
+      "database": "",
       "host": "127.0.0.1",
       "dialect": "mysql",
       "retry": {
