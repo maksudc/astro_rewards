@@ -1,10 +1,10 @@
 {
   "Core":{
     "dbConfig": {
-      "username": "astro",
-      "password": "Tv8MBXfk2AS8",
-      "database": "astro_rewards",
-      "host": "172.104.167.246",
+      "username": "",
+      "password": "",
+      "database": "",
+      "host": "",
       "dialect": "mysql",
       "retry": {
         "max": 1,
